@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Registro"
+    android:background="@drawable/registro">
+
+    <EditText
+        android:id="@+id/editText7"
+        android:layout_width="336dp"
+        android:layout_height="29dp"
+        android:background="@color/White"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Nombre"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="82dp" />
+
+    <EditText
+        android:id="@+id/editText8"
+        android:layout_width="336dp"
+        android:layout_height="27dp"
+        android:background="@color/White"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Correo"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="125dp" />
+
+    <EditText
+        android:id="@+id/editText9"
+        android:layout_width="336dp"
+        android:layout_height="21dp"
+        android:background="@color/White"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Usuario"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="174dp" />
+
+    <EditText
+        android:id="@+id/editText10"
+        android:layout_width="336dp"
+        android:layout_height="22dp"
+        android:background="@color/White"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Contraseña"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="216dp" />
+
+    <EditText
+        android:id="@+id/editText11"
+        android:layout_width="333dp"
+        android:layout_height="41dp"
+        android:background="@color/White"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Repetir Contraseña"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="241dp" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="353dp"
+        android:layout_height="54dp"
+        android:text="REGISTRAR"
+        android:background="@color/Green"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="307dp" />
+</android.support.constraint.ConstraintLayout>
